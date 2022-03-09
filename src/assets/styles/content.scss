@@ -1,0 +1,132 @@
+/* Resume */
+.resume-page{
+    .resume-container{
+        .resume-middle-title {
+            h2 {
+                font: {
+                    size: 32px;
+                    weight: bold;
+                }
+            }
+        }
+    }
+    .resume-container.title {
+        h1 {
+            font: {
+                size: 44px;
+                weight: bold;
+            }
+        }
+        img {
+            width: 40px;
+            // height: 40px;
+        }
+    }
+    .resume-container.aboutMe {
+        .aboutMe-content {
+            .aboutMe-privacy{
+                > img {
+                    width: 102px;
+                    height: 120px;
+                    margin-right: 32px;
+                }
+            }
+            .aboutMe-contact {
+                > div {
+                    align-items: center;
+                    img{
+                        width: 32px;
+                        height: 32px;
+                    }
+                    span, a {
+                        margin-left: 20px;
+                        color: #000;
+                        font: {
+                            size: 24px;
+                            // weight: bold;
+                        }
+                    }
+                    img.copy{
+                        width: 18px;
+                        height: 20px;
+                        margin-left: 10px;
+                        cursor: pointer;
+                    }
+                }
+                > div:not(:first-child) a:hover{
+                    cursor: pointer;
+                    text-decoration: underline;
+                    font-weight: bold;
+                }
+                > div:last-child {
+                    min-width: 360px;
+                }
+            }
+            .about-introduction{
+                font-size: 17px;
+            }
+        }
+    }
+    .resume-container.experience {
+
+        .experience-area{
+            .experience-title{
+                h2 {
+                    font-weight: bold;
+                }
+                .careerEriod{
+                    font-size: 20px;
+                    font-weight: 400;
+                    text-align: center;
+                }
+                .position{
+                    color:#939393;
+                    text-align: center;
+                }
+            }
+            .experience-project{
+                .description{
+                    span{
+                        font-size:14px;
+                    }
+                }
+            }
+        }
+    }
+
+    .resume-container.tmi {
+        .hobby-area{
+            .hobby-wrap{
+                .hobby-box{
+                   label{
+                       font-size: 20px;
+                       font-weight: bold;
+                   }
+                }
+                .hobby-box.bicycle{
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+                .hobby-box.movie{
+                    img{
+                        width: 40px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .resume-container.footer{
+        .footer-area{
+            label{
+                font-size: 22px;
+                font-weight: bold;
+            }
+        }
+        :hover{
+            cursor: pointer;
+        }
+    }
+}
