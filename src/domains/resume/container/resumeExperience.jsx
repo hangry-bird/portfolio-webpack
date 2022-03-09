@@ -2,7 +2,7 @@ import React from 'react';
 import ResumeMiddleTitle from '../templates/resumeMiddleTitle';
 
 import Project from 'src/assets/images/experience/project_icon.png'
-import Performance from 'src/assets/images/experience/Performance_icon.png'
+import Performance from 'src/assets/images/experience/performance_icon.png'
 import Confirm from 'src/assets/images/experience/confirm_icon.png'
 
 const ResumeExperience = () => {
